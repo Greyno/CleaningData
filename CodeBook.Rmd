@@ -49,7 +49,7 @@ There are 6 activities that are performed by each of the 30 subjects.
 
 #####Features
 There are 561 features. Due to the length of the list, they are not replicated here, but the reader is referred to the features.txt file. A short list is shown here, where XYZ represents the 3 axes that are represented in the larger features set. The features consist of various maesures, including the mean and std. Features are normalized and bounded within [-1,1].
-The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).The gyroscope units are rad/seg.
+The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/sec2).The gyroscope units are rad/seg.
 
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
