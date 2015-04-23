@@ -6,10 +6,12 @@ and are unzipped into a folder "~/data/UCI HAR Dataset". This folder contains a 
 A program, run_analysis.R, was written to do the following:
 
 1. Merge the training and the test sets to create one data set.
+
 + Load the X_/Y_test, X_/Y_train and subject_test/train data from the "test"" and "train" folders, respectively. 
 + Join the train and test data, join the train and test labels and join the train and test subjects, by row
 
 2. Extract only the measurements on the mean and standard deviation for each measurement. 
+
 + Load the features.txt data and find the rows that correspond to the mean and standard deviation measurements. 
 These rows were designated with "mean() or "std()" at the end of the variable name. 
 + Use 'grep' to find which row numbers in the file have 'mean()' or 'std()' at the end of the feature name.
@@ -19,15 +21,18 @@ These rows were designated with "mean() or "std()" at the end of the variable na
 
 
 3. Use descriptive activity names to name the activities in the data set.
+
 + Load the activity data, change the names in column 2 to lower case and remove the '-' from the names
 
 4. Appropriately label the data set with descriptive variable names.
+
 + Clean up the column names in the merged data by removing '_' and converting names to lower case
 + This created a wide data set with column 1 being the Subject, column 2 being the activty and columns 3-68 
 representing the various measured mean and std
 
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for 
 each activity and each subject.
+
 + Use ddply to capture the average of the columns by subject and activity
 + The resulting tidy data is in a wide format - each measured variable is in one column and each observation of that 
 variable is in one row i.e. each of the 6 activities is reported once for each subject; each measured observation is 
