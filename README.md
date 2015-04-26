@@ -18,6 +18,7 @@ These rows were designated with "mean() or "std()" at the end of the variable na
 + Apply these to the data columns and remove the '()' from the names 
 + Change the column names of the Subject and Label data sets from V1 to "Label" and "Subject"
 + Merge the Subjects, Labels and Data
++ Convert column names to lower case
 
 
 C. Use descriptive activity names to name the activities in the data set.
