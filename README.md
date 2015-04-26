@@ -25,7 +25,7 @@ These rows were designated with "mean() or "std()" at the end of the variable na
 C. Use descriptive activity names to name the activities in the data set.
 
 + Load the activity data, change the names in column 2 to lower case and remove the '-' from the names
-+ Cleaned name example: 1 WALKING -> walking; WALKING_UPSTAIRS -> walkingupstairs
++ Cleaned name example: WALKING -> walking; WALKING_UPSTAIRS -> walkingupstairs
 
 D. Appropriately label the data set with descriptive variable names.
 
