@@ -30,9 +30,9 @@ C. Use descriptive activity names to name the activities in the data set.
 D. Appropriately label the data set with descriptive variable names.
 
 + Clean up the column names in the merged data by removing '_' and converting names to lower case
-+ This created a wide data set with column 1 being the Subject, column 2 being the activity and columns 3-68 
++ This created a wide data set with column 1 being the Subject, column 2 being the Activity and columns 3-68 
 representing the various measured mean and std
-+ Cleaned column name examples: Subject -> subject; Label -> label; BodyAcc-mean-Y -> tbodyaccmeany; tBodyAcc-std-X -> tbodyaccstdx
++ Cleaned column name examples: Subject -> subject; Activity -> activity; tBodyAcc-mean-Y -> tbodyaccmeany; tBodyAcc-std-X -> tbodyaccstdx
 
 E. From the data set in step D, create a second, independent tidy data set with the average of each variable for 
 each activity and each subject.
