@@ -1,4 +1,5 @@
 # CleaningData
+This README discusses how the data were gathered and cleaned.
 The run_analysis.R program includes the 'plyr' library
 
 The data are loaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -24,6 +25,7 @@ These rows were designated with "mean() or "std()" at the end of the variable na
 C. Use descriptive activity names to name the activities in the data set.
 
 + Load the activity data, change the names in column 2 to lower case and remove the '-' from the names
++ Cleaned name example: 1 WALKING -> walking; WALKING_UPSTAIRS -> walkingupstairs
 
 D. Appropriately label the data set with descriptive variable names.
 
@@ -38,3 +40,6 @@ each activity and each subject.
 + The resulting tidy data is in a wide format - each measured variable is in one column and each observation of that 
 variable is in one row i.e. each of the 6 activities is reported once for each subject; each measured observation is 
 in its own column. There are 180 observations over 68 variables (including the subject and activity)
+
+Cleaned data:
+Once cleaned, the data
