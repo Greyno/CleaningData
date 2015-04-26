@@ -3,8 +3,8 @@ title: "CodeBook.md"
 output: html_document
 ---
 
-This code book describes the variables, the data, and the work that was performed to clean up the data. The data that are being cleaned are from this site: 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+This code book describes the data files, the variables and the features of the dataset. The data that are being 
+cleaned are from this site: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ####The Data Files
 The dataset has the following .txt files: 
