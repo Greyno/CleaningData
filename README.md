@@ -25,13 +25,14 @@ These rows were designated with "mean() or "std()" at the end of the variable na
 C. Use descriptive activity names to name the activities in the data set.
 
 + Load the activity data, change the names in column 2 to lower case and remove the '-' from the names
-+ Cleaned name example: WALKING -> walking; WALKING_UPSTAIRS -> walkingupstairs
++ Cleaned activity name examples: WALKING -> walking; WALKING_UPSTAIRS -> walkingupstairs
 
 D. Appropriately label the data set with descriptive variable names.
 
 + Clean up the column names in the merged data by removing '_' and converting names to lower case
-+ This created a wide data set with column 1 being the Subject, column 2 being the activty and columns 3-68 
++ This created a wide data set with column 1 being the Subject, column 2 being the activity and columns 3-68 
 representing the various measured mean and std
++ Cleaned column name examples: Subject -> subject; tLabel -> label; BodyAcc-mean-Y -> tbodyaccmeany; tBodyAcc-std-X -> tbodyaccstdx
 
 E. From the data set in step D, create a second, independent tidy data set with the average of each variable for 
 each activity and each subject.
