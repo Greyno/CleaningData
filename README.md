@@ -40,7 +40,4 @@ each activity and each subject.
 + Use ddply to capture the average of the columns by subject and activity
 + The resulting tidy data is in a wide format - each measured variable is in one column and each observation of that 
 variable is in one row i.e. each of the 6 activities is reported once for each subject; each measured observation is 
-in its own column. There are 180 observations over 68 variables (including the subject and activity)
-
-Cleaned data:
-Once cleaned, the data
+in its own column. There are 180 observations over 68 variables (including the subject and activity).
