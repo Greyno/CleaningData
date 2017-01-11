@@ -1,5 +1,5 @@
 # CleaningData
-This README discusses how the data were gathered and cleaned.
+This README discusses how data were gathered and cleaned.
 The run_analysis.R program includes the 'plyr' library
 
 The data are loaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
